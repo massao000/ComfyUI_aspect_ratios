@@ -8,7 +8,7 @@ class AspectRatio:
         return {"required": { "size": ("INT", {"default": 512, "min": 16, "max": MAX_RESOLUTION, "step": 8}),
                               "aspect_ratios": (s.aspect_ratios_label, ),
                               "standard": (['width', 'height'], ),
-                              "swap_aspect_ratio": ([None, 'swap'], ),
+                              "swap_aspect_ratio": (['not_swap', 'swap'], ),
                               "batch_size": ("INT", {"default": 1, "min": 1, "max": 4096})
                             }
                 }
