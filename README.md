@@ -4,7 +4,7 @@
 
 I created an aspect ratio selector for ComfyUI based on [sd-webui-ar](https://github.com/alemelis/sd-webui-ar?tab=readme-ov-file).
 
-![image](https://github.com/massao000/ComfyUI_aspect_ratios/assets/69783019/d702a3f6-bdfc-466c-9e3c-0aae4f949a28)
+![image](img1.png)
 
 # Usage
 
@@ -38,13 +38,13 @@ The line starting with `#` is a comment and will not be read.
 
 ## Example
 
-![image](https://github.com/massao000/ComfyUI_aspect_ratios/assets/69783019/4b1d7545-7ba1-488d-bef8-450dcfc7891c)
+![image](img2.png)
 
 Setting `standard` to width results in a width-based reference, with a `width of 1024` and a height of 512.
 
 ---
 
-![image](https://github.com/massao000/ComfyUI_aspect_ratios/assets/69783019/18bdadee-317c-4099-9895-3ed121d7d45b)
+![image](img3.png)
 
 Setting standard to height results in a height-based reference, with a `height of 1024` and a width of 2048.
 

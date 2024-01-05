@@ -2,7 +2,7 @@
 
 [sd-webui-ar](https://github.com/alemelis/sd-webui-ar?tab=readme-ov-file)をもとにComfyUI用のアスペクト比セレクターを作りました
 
-![image](https://github.com/massao000/ComfyUI_aspect_ratios/assets/69783019/d702a3f6-bdfc-466c-9e3c-0aae4f949a28)
+![image](img1.png)
 
 # 使用法
 
@@ -37,13 +37,13 @@ Empty Latent ImageをAspect Ratios Nodeに置き換える
 
 ## 使用例
 
-![image](https://github.com/massao000/ComfyUI_aspect_ratios/assets/69783019/4b1d7545-7ba1-488d-bef8-450dcfc7891c)
+![image](img2.png)
 
 `standard`をwidthに設定すると、幅が基準となり`幅が1024`、高さが512になります。
 
 ---
 
-![image](https://github.com/massao000/ComfyUI_aspect_ratios/assets/69783019/18bdadee-317c-4099-9895-3ed121d7d45b)
+![image](img3.png)
 
 `standard`をheightに設定すると、高さが基準となり`高さが1024`、幅が2048になります。
 
