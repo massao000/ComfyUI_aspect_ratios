@@ -71,7 +71,7 @@ class AspectRatio:
         else:
             result = size * aspect_ratios
         
-        return int(result)
+        return round(result)
     
     def run(self, size, aspect_ratios, standard, batch_size, swap_aspect_ratio):
         
